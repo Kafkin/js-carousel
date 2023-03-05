@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Only js carousel</title>
+
+  <!-- styles -->
+  <link rel="stylesheet" href="./styles/css/config.min.css">
+
+  <!-- scripts -->
+  <script src="./scripts/carousel.js" defer></script>
+
+</head>
+<body>
+  
+  <!-- carousel item model -->
+  <template id="carousel-item">
+    <div class="carousel__item">
+      <p class="carousel__item-title"></p>
+    </div>
+  </template>
+
+  <!-- carousel indicator model -->
+  <template id="carousel-indicator">
+    <div class="carousel__indicator"></div>
+  </template>
+  
+  <!-- carousel -->
+  <div class="carousel">
+    <div class="carousel__container-item"></div>
+    
+    <div class="carousel__container-btn">
+      <button class="carousel__btn carousel__btn_prev" disabled="true"></button>
+      <button class="carousel__btn carousel__btn_next"></button>
+    </div>
+
+    <div class="carousel__container-indicator"></div>
+  </div>
+  
+  

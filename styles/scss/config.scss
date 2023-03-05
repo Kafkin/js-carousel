@@ -1,0 +1,14 @@
+*,*::before,*::after{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  display: flex; align-items: center; justify-content: center;
+  max-width: 100vw; min-height: 100vh;
+  scroll-behavior: smooth;
+  user-select: none;
+}
+
+@import 'carousel';
